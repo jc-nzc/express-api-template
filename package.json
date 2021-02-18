@@ -1,0 +1,33 @@
+{
+  "name": "express-api-template",
+  "version": "1.0.0",
+  "description": "CRUD Application using Postgresql, Express, React",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc-nzc/express-api-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jc-nzc/express-api-template/issues"
+  },
+  "homepage": "https://github.com/jc-nzc/express-api-template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.17",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
